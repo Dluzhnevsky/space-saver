@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A02A0C1203DF24000CB9621 /* ColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02A0C0203DF24000CB9621 /* ColorProvider.swift */; };
+		0A02A0C3203E1F8300CB9621 /* SkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02A0C2203E1F8300CB9621 /* SkyView.swift */; };
+		0A02A0C5203EC4C000CB9621 /* NormalGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02A0C4203EC4C000CB9621 /* NormalGenerator.swift */; };
+		0A2E5A94203CACFC00941793 /* SpaceSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E5A93203CACFC00941793 /* SpaceSaverView.swift */; };
+		0A320C69204DE49700075FD1 /* RocketNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A320C68204DE49700075FD1 /* RocketNode.swift */; };
+		0A7B90A2204408AD004A9845 /* PlanetMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B90A1204408AD004A9845 /* PlanetMesh.swift */; };
+		0A959AB52051EEC8007B9EC2 /* PlanetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A959AB42051EEC8007B9EC2 /* PlanetNode.swift */; };
+		0AB49B2F203DD76400318549 /* MapGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB49B2E203DD76400318549 /* MapGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A02A0C0203DF24000CB9621 /* ColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProvider.swift; sourceTree = "<group>"; };
+		0A02A0C2203E1F8300CB9621 /* SkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyView.swift; sourceTree = "<group>"; };
+		0A02A0C4203EC4C000CB9621 /* NormalGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalGenerator.swift; sourceTree = "<group>"; };
+		0A2E5A84203CAC8B00941793 /* SpaceSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2E5A8B203CAC8B00941793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2E5A93203CACFC00941793 /* SpaceSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceSaverView.swift; sourceTree = "<group>"; };
+		0A320C68204DE49700075FD1 /* RocketNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketNode.swift; sourceTree = "<group>"; };
+		0A7B90A1204408AD004A9845 /* PlanetMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetMesh.swift; sourceTree = "<group>"; };
+		0A959AB42051EEC8007B9EC2 /* PlanetNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNode.swift; sourceTree = "<group>"; };
+		0AB49B2E203DD76400318549 /* MapGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2E5A80203CAC8B00941793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2E5A7A203CAC8B00941793 = {
+			isa = PBXGroup;
+			children = (
+				0A3EDB46203CDB7D00FB72F3 /* Source */,
+				0A2E5A86203CAC8B00941793 /* SpaceSaver */,
+				0A2E5A85203CAC8B00941793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2E5A85203CAC8B00941793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E5A84203CAC8B00941793 /* SpaceSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2E5A86203CAC8B00941793 /* SpaceSaver */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E5A93203CACFC00941793 /* SpaceSaverView.swift */,
+				0A2E5A8B203CAC8B00941793 /* Info.plist */,
+			);
+			path = SpaceSaver;
+			sourceTree = "<group>";
+		};
+		0A3EDB46203CDB7D00FB72F3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0A02A0C0203DF24000CB9621 /* ColorProvider.swift */,
+				0AB49B2E203DD76400318549 /* MapGenerator.swift */,
+				0A320C68204DE49700075FD1 /* RocketNode.swift */,
+				0A02A0C4203EC4C000CB9621 /* NormalGenerator.swift */,
+				0A7B90A1204408AD004A9845 /* PlanetMesh.swift */,
+				0A959AB42051EEC8007B9EC2 /* PlanetNode.swift */,
+				0A02A0C2203E1F8300CB9621 /* SkyView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A2E5A81203CAC8B00941793 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A2E5A83203CAC8B00941793 /* SpaceSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2E5A8E203CAC8B00941793 /* Build configuration list for PBXNativeTarget "SpaceSaver" */;
+			buildPhases = (
+				0A2E5A7F203CAC8B00941793 /* Sources */,
+				0A2E5A80203CAC8B00941793 /* Frameworks */,
+				0A2E5A81203CAC8B00941793 /* Headers */,
+				0A2E5A82203CAC8B00941793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceSaver;
+			productName = SpaceSaver;
+			productReference = 0A2E5A84203CAC8B00941793 /* SpaceSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2E5A7B203CAC8B00941793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dluzhnevsky, Dmitry";
+				TargetAttributes = {
+					0A2E5A83203CAC8B00941793 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A2E5A7E203CAC8B00941793 /* Build configuration list for PBXProject "SpaceSaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A2E5A7A203CAC8B00941793;
+			productRefGroup = 0A2E5A85203CAC8B00941793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2E5A83203CAC8B00941793 /* SpaceSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2E5A82203CAC8B00941793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2E5A7F203CAC8B00941793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7B90A2204408AD004A9845 /* PlanetMesh.swift in Sources */,
+				0A2E5A94203CACFC00941793 /* SpaceSaverView.swift in Sources */,
+				0A02A0C1203DF24000CB9621 /* ColorProvider.swift in Sources */,
+				0AB49B2F203DD76400318549 /* MapGenerator.swift in Sources */,
+				0A02A0C5203EC4C000CB9621 /* NormalGenerator.swift in Sources */,
+				0A959AB52051EEC8007B9EC2 /* PlanetNode.swift in Sources */,
+				0A02A0C3203E1F8300CB9621 /* SkyView.swift in Sources */,
+				0A320C69204DE49700075FD1 /* RocketNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A2E5A8C203CAC8B00941793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A2E5A8D203CAC8B00941793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A2E5A8F203CAC8B00941793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TA3465WE8L;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = SpaceSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dluzhnevsky.SpaceSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		0A2E5A90203CAC8B00941793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TA3465WE8L;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = SpaceSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dluzhnevsky.SpaceSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2E5A7E203CAC8B00941793 /* Build configuration list for PBXProject "SpaceSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E5A8C203CAC8B00941793 /* Debug */,
+				0A2E5A8D203CAC8B00941793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2E5A8E203CAC8B00941793 /* Build configuration list for PBXNativeTarget "SpaceSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E5A8F203CAC8B00941793 /* Debug */,
+				0A2E5A90203CAC8B00941793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2E5A7B203CAC8B00941793 /* Project object */;
+}
